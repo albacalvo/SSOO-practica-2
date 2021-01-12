@@ -21,7 +21,7 @@ pid_t ejecutar_orden(const char *orden, int *pbackgr)
    /* Si la linea de ordenes posee tuberias o redirecciones, podra incluir */
    /* aqui, en otras fases de la practica, el codigo para su tratamiento.  */
    pid=fork()
-
+//
 
    else{
     /*Controlar el posible error del Fork*/
