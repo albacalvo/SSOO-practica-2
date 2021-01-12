@@ -6,7 +6,7 @@
 #include "ejecutar.h"
 #include "libmemoria.h"
 
-
+//*******************************************************************************
 pid_t ejecutar_orden(const char *orden, int *pbackgr)
 {
    char **args;
