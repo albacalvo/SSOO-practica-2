@@ -47,9 +47,10 @@ int main(int argc, char *argv[])
 		       else{
 			       ejecutar_linea_ordenes(orden);	//Ejecuta la orden externa
 		       }
+		}
 		else{
 			exit(1);
-		}}
+		}
 	}
 
 	   

@@ -6,6 +6,7 @@
 #include "parser.h"
 #include "ejecutar.h"
 #include "libmemoria.h"
+#include "redirecciones.h"
 
 int **crear_pipes(int n_ordenes){ //Creamos las tuberias necesarias
 	int **pipes = NULL;
@@ -153,4 +154,3 @@ if((backgr==0) && (pids[n_ordenes-1] > 0) ){//Si fuera  la última orden y no hu
 
    //pid = ejecutar_orden(orden, &backgr);
 
-    }             

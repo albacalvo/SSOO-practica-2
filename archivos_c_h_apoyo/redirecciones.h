@@ -1,4 +1,4 @@
-#define REDIRECCIONES_H
+#ifndef REDIRECCIONES_H
 #define REDIRECCIONES_H
 
 void redirec_entrada(char **args, int indice_entrada, int *entrada);
