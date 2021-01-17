@@ -29,7 +29,7 @@ void redirec_entrada(char **args, int indice_entrada, int *entrada)
 void redirec_salida(char **args, int indice_salida, int *salida) 
 {
 	//Da los permiso de entrada y  escritura a la salida que se genera con open 	
-	*salida =  open(args[indice_salida+1],O_RDWR | O_CREAT | O_TRUNC ,0777);n	
+	*salida =  open(args[indice_salida+1],O_RDWR | O_CREAT | O_TRUNC ,0777);
 	if(*salida==-1){ 
 		perror("Error al abrir el fichero");
 		
